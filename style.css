@@ -1,18 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 body{
-    color: red;
-}
-h1{
-    color: rosybrown;
-}
-h2{
-    color: green;
-}
-h3{
-    color: grey;
-}
-#shib-comp{
-    color: purple;
-}
-.para{
-    color: palevioletred;
+    font-family: 'Open Sans', sans-serif;
 }
