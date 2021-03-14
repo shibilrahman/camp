@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1 >Shibil's component library</h1>
-    <p >
+    <h1>Shibil's component library</h1>
+    <p>
         I am attending neog.camp and I want to make a library which make all my Projects look good and consistent.
     </p>
     <p>This paragraph contains <strong>bold</strong>text</p>
@@ -20,21 +22,24 @@
     </h2>
     <h1>This is the biggest tag</h1>
     <h2>This is the the second biggest</h2>
-    <p >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores libero enim provident voluptatem vitae nulla optio, animi iure a veritatis?
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores libero enim provident voluptatem vitae nulla
+        optio, animi iure a veritatis?
     </p>
-    <small >This is relatively Smaller Text</small>
+    <small>This is relatively Smaller Text</small>
     <hr>
     <h2>@container</h2>
 
     <h3>fluid container</h3>
-    <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis laborum minima sit atque deleniti molestiae? Nam fuga fugit velit.</div>
+    <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis laborum minima
+        sit atque deleniti molestiae? Nam fuga fugit velit.</div>
 
     <h3>Center container</h3>
-    <div class="container container-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis laborum minima sit atque deleniti molestiae? Nam fuga fugit velit.</div>
+    <div class="container container-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis
+        laborum minima sit atque deleniti molestiae? Nam fuga fugit velit.</div>
     <hr>
     <h2>@Links</h2>
     <a class="link-primary link" href="/">Primary Link</a>
-    <a class="link-secondary link" href="/">Secondary Link</a>  
+    <a class="link-secondary link" href="/">Secondary Link</a>
     <hr>
     <h2>@Lists</h2>
     <h3>unordered Lists</h3>
@@ -59,51 +64,59 @@
     <hr>
     <h2>@nav</h2>
     <nav class="navigation container">
-             <div class="nav-brand ">IAmBrand</div>
-             <ul class="list-non-bullet nav-pills">
-                <li class="list-item-inline">
-                    <a class="link link-active" href="/">Home</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="/">Products</a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="link" href="/">about</a>
-                </li>
-            </ul>
+        <div class="nav-brand ">IAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">Products</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/">about</a>
+            </li>
+        </ul>
     </nav>
 
     <hr>
+
     <h2>@Header</h2>
     <header class="hero">
-    <img class="hero-img" src="images/shop-image.svg"/>
-    <h1 class="hero-heading">shibil rahman the <span class="hero-inverted">Web Developer</span> </h1>
+        <img class="hero-img" src="images/shop-image.svg" />
+        <h1 class="hero-heading">shibil rahman the <span class="hero-inverted">Web Developer</span> </h1>
     </header>
-    <hr>
-    <h2>@section</h2>
-    
-    <section>
-        <h3>@white section</h3>
-        <p>This will have white background</p>
 
-    </section>
-    <section>
-        <h3>off-white section</h3>
-        <p>This will have grey background</p>
-    </section>
     <hr>
+
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+        <h1>white section</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate molestiae est consequatur sapiente minus doloremque dicta, animi libero quo excepturi! Minus, suscipit! Velit aspernatur quas at fuga amet, consequuntur nesciunt!</p>
+        </div>
+    </section>
+    <section class="section ow">
+        <div class="container container-center">
+        <h1>off-white section</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat corrupti ipsa soluta, iste maxime aliquam dignissimos recusandae labore! Repudiandae repellendus odit a sit laudantium architecto minima, ullam similique atque error!</p>
+        </div>
+    </section>
+
+    <hr>
+
     <h2>@footer</h2>
-    <footer>
+    <footer class="footer" >
         <div>
             Some small heading inside footer
         </div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="/">socialone</a></li>
+            <li class="list-item-inline"><a class="link" href="/">socialtwo</a></li>
+            <li class="list-item-inline"><a class="link" href="/">socialthree</a></li>
         </ul>
     </footer>
 
     <!-- <div style="height: 30vh;"> -->
 </body>
+
 </html>
